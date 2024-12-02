@@ -1,4 +1,4 @@
-## **File Descriptions**
+**File Descriptions**
 - `public/`
   - `character.glb`: The 3D model of the main character.
   - `Walking (1).glb`: Animation for the walking movement.
@@ -34,3 +34,22 @@ Start the development server with: " npx vite "
 4. Open in Browser
 Once the server is running, open the link provided in the terminal (usually http://localhost:5173) in your browser.
 
+5. Dependencies
+Ensure you have these installed globally or through the npm install process:
+three: 3D library for rendering graphics.
+vite: Lightweight development server for quick iteration.
+
+7. Additional Notes
+Ensure the public/ folder contains all the required assets (character models and animations).
+You can adjust the map size, camera settings, or character speed in the main.js and controls.js files.
+For advanced configurations, refer to the Three.js documentation: https://threejs.org/.
+
+8. Known Issues
+Ensure your character models and animations are correctly placed in the public/ folder, or the game may fail to load them.
+Large assets may take time to load; consider optimizing the GLB files if necessary.
+ensure to run project whit " npx vite " from the termnal
+
+9. Future Improvements
+Add more character animations (e.g., crouch, attack).
+Include a scoring system or game objectives.
+Enhance the environment with additional models and textures.
