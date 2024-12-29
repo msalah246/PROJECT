@@ -7,9 +7,27 @@
   <style>
     body { margin: 0; }
     canvas { display: block; }
+    #hud {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+    z-index: 100;
+    display: flex;
+    gap: 20px;
+}
+
   </style>
 </head>
 <body>
   <script type="module" src="/src/main.js"></script>
+  <div id="hud">
+    <div id="level">Level: 1</div>
+    <div id="score">Score: 0</div>
+    <div id="timer">Time: 120s</div>
+</div>
+
+
 </body>
 </html>
